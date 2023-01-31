@@ -18,6 +18,7 @@
     "sequelize": "^6.26.0"
   },
   "devDependencies": {
-    "sequelize-cli": "^6.5.2"
+    "sequelize-cli": "^6.5.2",
+    "sinon": "^9.2.4"
   }
 }

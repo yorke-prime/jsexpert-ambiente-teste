@@ -19,7 +19,8 @@ const InitialController = require('../controller/InitialController');
 const router = Router();
 
 router.get('', InitialController.teste)
-router.post('/upload', upload.single('file'), UploadController.uploadFile)
+router.post('/upload', upload.single('file'), UploadController.uploadFile);
+router.get('/consumir', upload.single('file'), UploadController.consumirApi);
 
 
 module.exports = router;
